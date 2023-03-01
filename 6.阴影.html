@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+    .one {
+    width: 100px;
+    height: 200px;
+    background-color: pink;
+    position: absolute;
+    left: 50%;
+    margin-left: -50px;
+    top: 50%;
+    margin-top: -100px;
+
+
+    
+    /* 盒子阴影的过程顺序 水平 垂直 模糊 尺寸 颜色 阴影（外）内 */
+    box-shadow: 10px 30px  30px 10px  blue;
+    }
+    
+    .two {
+    width: 50px;
+    height: 30px;
+    background-color: blue;
+    position: absolute;
+    left: 0;
+    top: 0;
+    }
+    </style>
+</head>
+<body>
+    <div class="one"></div>
+    <div class="two"></div>
+</body>
+</html>
